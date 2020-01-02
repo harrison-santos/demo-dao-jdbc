@@ -9,7 +9,7 @@ public class Department implements Serializable {
 	private String name;
 	
 	
-	//construtors
+	//constructors
 	public Department() {
 		
 	}
