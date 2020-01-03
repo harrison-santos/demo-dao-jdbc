@@ -22,12 +22,20 @@ public class Main {
 		Seller seller = sellerDao.findById(3);
 		System.out.println(seller);
 		
-		System.out.println("=== Seller FindByDepartment ===");
+		System.out.println("\n=== Seller FindByDepartment ===");
 		List<Seller> list = sellerDao.findByDepartment(department);
 		
 		for (Seller s : list) {
 			System.out.println(s);
 		}
+		
+		System.out.println("\n=== Seller FindAll ===");
+		list = sellerDao.findAll();
+		
+		for (Seller s : list) {
+			System.out.println(s);
+		}
+
 		
 		
 		
